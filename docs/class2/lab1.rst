@@ -87,7 +87,7 @@ steps will define an application, register its DNS and assign a target as an ori
    **Select Type of Origin Server**.
 
 #. In the **DNS Name** field enter the following hostname:
-   **petapi.cloud.myf5demo.com** and then click **Apply**
+   **petapi.lab-sec.f5demos.com** and then click **Apply**
 
    .. image:: _static/lab1-task1-007.png
       :width: 800px
@@ -131,7 +131,7 @@ version control features.
 #. For the next series of steps, to download the JSON/OpenAPI spec file **app-api-v1.json**
    to your local desktop or workspace.
 
-   http://petapi.cloud.myf5demo.com/lab/app-api-v1.json
+   http://petapi.lab-sec.f5demos.com/lab/app-api-v1.json
 
    .. note::
       *Depending on browser, you may need to copy content and save as **app-api-v1.json***
