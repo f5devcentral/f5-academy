@@ -1,15 +1,15 @@
-F5 Agility Lab Template
+F5 Academy Lab Template
 =======================
 
 [![Issues](https://img.shields.io/github/issues/f5devcentral/f5-agility-labs-template.svg)](https://github.com/f5devcentral/f5-agility-labs-template/issues)
-[![Build the Docs](https://github.com/f5devcentral/f5-agility-labs-template/actions/workflows/build-the-docs.yml/build.svg)](https://github.com/f5devcentral/f5-agility-labs-template/actions/workflows/build-the-docs.yml)
-[![Check the Docs](https://github.com/f5devcentral/f5-agility-labs-template/actions/workflows/check-the-docs.yml/check.svg)](https://github.com/f5devcentral/f5-agility-labs-template/actions/workflows/check-the-docs.yml)
+![Build the Docs](https://github.com/f5devcentral/f5-agility-labs-template/actions/workflows/build-the-docs.yml/badge.svg)
+![Check the Docs](https://github.com/f5devcentral/f5-agility-labs-template/actions/workflows/check-the-docs.yml/badge.svg))
 
 Introduction
 ------------
 
 This repo contains a template that should be used when creating lab
-documentation for F5's Agility Labs.
+documentation for F5's Academy Labs.
 
 Setup
 -----
