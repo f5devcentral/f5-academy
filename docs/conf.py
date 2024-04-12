@@ -13,10 +13,10 @@ import f5_sphinx_theme
 # ------------
 #
 # REQUIRED: Your class/lab name
-classname = "F5 Agility Template"
+classname = "F5 Academy"
 
 # OPTIONAL: The URL to the GitHub Repository for this class
-github_repo = "https://github.com/f5devcentral/f5-agility-labs-template"
+github_repo = "https://github.com/f5devcentral/f5-academy"
 
 #
 # END CONFIG
@@ -25,7 +25,7 @@ github_repo = "https://github.com/f5devcentral/f5-agility-labs-template"
 sys.path.insert(0, os.path.abspath("."))
 
 year = time.strftime("%Y")
-eventname = "Agility %s Hands-on Lab Guide" % (year)
+eventname = "Academy %s Hands-on Lab Guide" % (year)
 
 rst_prolog = """
 .. |classname| replace:: %s
@@ -142,7 +142,7 @@ master_doc = "index"
 
 # General information about the project.
 project = classname
-copyright = "2022, F5 Networks, Inc."
+copyright = "2024, F5 Networks, Inc."
 author = "F5 Networks, Inc."
 
 # The version info for the project you're documenting, acts as replacement for
@@ -178,7 +178,7 @@ todo_include_todos = True
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 
-html4_writer = True
+html4_writer = False
 html_theme = "f5_sphinx_theme"
 html_theme_path = f5_sphinx_theme.get_html_theme_path()
 html_sidebars = {"**": ["searchbox.html", "localtoc.html", "globaltoc.html"]}
@@ -371,7 +371,8 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, cleanname.lower(), "%s Documentation" % classname, [author], 1)
+    (master_doc, cleanname.lower(), "%s Documentation" %
+     classname, [author], 1)
 ]
 
 
