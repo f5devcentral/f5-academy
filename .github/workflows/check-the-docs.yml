@@ -1,10 +1,7 @@
-name: Build the Docs
+name: Check the Docs
 on:
   pull_request: {}
-  push:
-    branches:
-      - develop
-      - master
+  push: {}
   workflow_dispatch: {}
 
 jobs:
