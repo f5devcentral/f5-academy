@@ -30,5 +30,5 @@ jobs:
       - name: Copy files to s3 (Production Clouddocs)
         if: github.ref == 'refs/heads/master'
         run: |
-          aws s3 sync --delete $PWD/docs/_build/html/ s3://clouddocs.f5.com/training/community/$S3_DIR/
-          aws cloudfront create-invalidation --distribution-id ${{ secrets.AWS_DIST_ID }} --paths /training/community/$S3_DIR
+          aws s3 sync --delete $PWD/docs/_build/html/ s3://clouddocs.f5.com/training/$S3_DIR/
+          aws cloudfront create-invalidation --distribution-id ${{ secrets.AWS_DIST_ID }} --paths /training/$S3_DIR
