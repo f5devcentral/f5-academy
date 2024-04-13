@@ -1,4 +1,4 @@
-Class 1: Getting Started
+Class 0: Getting Started
 ========================
 
 This class has one module and two labs. We're simply doing this to show the
