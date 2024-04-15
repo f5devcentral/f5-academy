@@ -46,12 +46,12 @@ In this lab, we have installed the APM client, which is why the screen shot look
 
 9. This process take a couple of minutes to complete. You should see the status Installing.
 
-.. image:: images/lab-cm7.png
+.. image:: images/lab3-cm7.png
    :width: 400 px
 
 10. You should still be on the instance page. Click on **Cancel** button at the bottom left to go back to the Software Management.
 
-.. image:: images/lab-cm8.png
+.. image:: images/lab3-cm8.png
    :width: 400 px
 
 11. You will follow similar steps as above to install the Endpoint Security ISO.  
@@ -67,7 +67,7 @@ Verify the APM client is installed on 2 instances and Status is Active.
 
 13. Click on **Endpoint Security** tab. Verify the Endpoint Security package is installed on 2 instances and **Status** is **Active**.
 
-.. image:: images/lab-cm10.png
+.. image:: images/lab3-cm10.png
    :width: 400 px
 
 This completes this lab. Let’s go create the VPN Access policy.

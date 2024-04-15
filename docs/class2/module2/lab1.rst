@@ -106,7 +106,7 @@ Click on the **access_okta_Connector_polic**  link to open the VPD.
 
 21. Review the virtual server configurations for this application. You’ll notice the virtual server name, pool name, the listening port, an access policy is attached to the virtual server. To see further details like what policy is attached to the virtual server click on the **Edit** button. 
 
-.. image:: images/lab-postmane18.png
+.. image:: images/lab-postman18.png
     :width: 400 px
 
 22. Once you are done reviewing, please click on **Cancel** and **Exit**. And then **Exit** again to close the **Application** menu.
