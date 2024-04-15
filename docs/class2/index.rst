@@ -43,13 +43,13 @@ Accessing the Lab environment
 
 1. On the UDF Deployment page, click on Access from the Window Jump Host. 
 
-.. image:: /images/intro1.png
+.. image:: images/intro1.png
        :width: 400 px
 
 2. Select and click on one of the desire resolution size. This will download an RDP (Remote Desktop Profile) file. 
 .. note:: Some browser there may not be an option for a resolution size, please select RDP from the available list.
 
-.. image:: /images/intro2.png
+.. image:: images/intro2.png
        :width: 400 px
 
 3. Open the RDP session and use the following username/password
@@ -59,13 +59,13 @@ Accessing the Lab environment
 
 4. In the Windows Jump Host, open Chrome browser, and click on the Central Manager shortcut to log into Next Central Manager. 
 
-.. image:: /images/intro4.png
+.. image:: images/intro4.png
        :width: 400 px
 
 
 5. You may get a Certificate Warning, this is because we’re using a self-signed certificate. You can safely click Advanced and Proceed to 10.1.1.5. 
 
-.. image:: /images/intro5.png
+.. image:: images/intro5.png
        :width: 400 px
 
 
@@ -74,7 +74,7 @@ Accessing the Lab environment
 **Username:** admin
 **Password:** Welcome123!
 
-.. image:: /images/intro6.png
+.. image:: images/intro6.png
        :width: 400 px
 
 
