@@ -62,7 +62,7 @@ You should be back at the Software Management screen, and on the Remote Access C
 
 Verify the APM client is installed on 2 instances and Status is Active.
 
-.. image:: images/lab-cm9.png
+.. image:: images/lab3-cm9.png
    :width: 400 px
 
 13. Click on **Endpoint Security** tab. Verify the Endpoint Security package is installed on 2 instances and **Status** is **Active**.
