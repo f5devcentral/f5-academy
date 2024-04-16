@@ -27,7 +27,7 @@ Lab 3.3: Deploying an Application for VPN service.
 **Virtual Port:** 443 
 
 .. image:: images/lab3-app4.png
-   :width: 400 px
+   :width: 600 px
 
 6. Click on the **Edit** button under **Protocols & Profiles**
 
@@ -67,6 +67,7 @@ Lab 3.3: Deploying an Application for VPN service.
 13. Back in the Application Services Properties, click on **Review and Deploy** button.
 
 .. image:: images/lab3-app13.png
+   :width: 600 px
 
 14. In the **Deploy-to** menu, click on **Start Adding** button to add the BIG-IP Next instance the VPN application will be deployed on. Select **big-ip-next 03** from the list, and click **Add to List**.
 
@@ -81,6 +82,7 @@ Lab 3.3: Deploying an Application for VPN service.
 16. Click on **Configure** button, this will open the configuration for the BIG-IP Next instance.
 
 .. image:: images/lab3-app16.png
+   :width: 400 px
 
 17. In the instance, click on the **vpn_policy** link under Per Session Policy column
 
