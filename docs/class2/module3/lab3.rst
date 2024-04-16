@@ -27,7 +27,7 @@ Lab 3.3: Deploying an Application for VPN service.
 **Virtual Port:** 443 
 
 .. image:: images/lab3-app5.png
-   :width: 400 px
+   :width: 200 px
 
 6. Click on the **Edit** button under **Protocols & Profiles**
 
