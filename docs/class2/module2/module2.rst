@@ -1,5 +1,5 @@
-Lab 2 - SAML Federation with Okta and HTTP Connector Profile
-============================================================
+Lab 2 - SAML Federation with Okta and HTTP Connector
+====================================================
 
 Estimate time to complete: 10 minutes.
 

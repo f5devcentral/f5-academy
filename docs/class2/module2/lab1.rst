@@ -1,4 +1,4 @@
-Lab 2 - SAML Federation with Okta and HTTP Connector
+Lab 2: SAML Federation with Okta and HTTP Connector
 ====================================================
 
 Use API requests to create an Access policy with HTTP Connector, and attached policy to an application.
