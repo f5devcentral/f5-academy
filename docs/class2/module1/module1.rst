@@ -1,5 +1,5 @@
-Module 1: Azure Authentication with Kerberos
-==========================================
+Lab 1: Azure Authentication with Kerberos
+=========================================
 
 Estimate time to complete: 25 minutes.
 

@@ -1,4 +1,4 @@
-Welcome to F5 Academy – Next Access lab.
+BIG-IP Next Access lab.
 ========================
 
 This lab consists of 3 use cases:
@@ -14,32 +14,32 @@ To learn about other Next Access use cases please visit: https://clouddocs.f5.co
 **Lab Overview:**
 
 In the lab are the following devices:
-
-bigip-next-03
-bigip-next-04
+**BIG-IP Next Instances**
+| bigip-next-03
+| bigip-next-04
 
 **BIG-IP Next Central Manager**
 
-Windows Client Testing
-Windows Jump Host
+| Windows Client Testing
+| Windows Jump Host
 
 You will predominantly work from the Windows jump host for all the labs.
 
 You will need to log into the Windows-Client-Testing to test the VPN Access Policy in Lab 3.
 
 **Credentials for the Next environment:**
-**username:** admin
-**password:** Welcome123!
+| **username:** admin
+| **password:** Welcome123!
 
 **Credentials for Windows Jump Host:**
-**username:** f5access/user
-**password:** user
+| **username:** f5access/user
+| **password:** user
 
 **Credentials for Windows Client Testing:**
-**username:** user
-**password:** user
+| **username:** user
+| **password:** user
 
-Accessing the Lab environment
+**Accessing the Lab environment**
 
 1. On the UDF Deployment page, click on Access from the Window Jump Host.
 
@@ -54,8 +54,8 @@ Accessing the Lab environment
 
 3. Open the RDP session and use the following username/password
 
-**Username:** f5access\user
-**Password:** user
+| **Username:** f5access\user
+| **Password:** user
 
 4. In the Windows Jump Host, open Chrome browser, and click on the Central Manager shortcut to log into Next Central Manager.
 
@@ -71,8 +71,8 @@ Accessing the Lab environment
 
 6. Log into Central Manager using the following credential.
 
-**Username:** admin
-**Password:** Welcome123!
+| **Username:** admin
+| **Password:** Welcome123!
 
 .. image:: images/intro6.png
        :width: 400 px
