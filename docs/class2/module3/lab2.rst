@@ -1,4 +1,4 @@
-Lab 3.2 - Creating an Access Policy
+Lab 3.2: Creating an Access Policy
 =====================================
 
 1. Click on **Policies** under the **Access** menu

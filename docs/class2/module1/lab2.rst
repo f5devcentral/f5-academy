@@ -1,4 +1,4 @@
-Lab 1.2 - Create an Access Security Policy
+Lab 1.2: Create an Access Security Policy
 ===========================================
 
 Creating a security policy with authentication to Azure and Kerberos Single Sign-On
@@ -24,12 +24,12 @@ Click on the **Access** from the Security menu.
 .. image:: images/lab2-createapbtn.png
     :width: 400 px
 
-4. This will open Access Visual Policy Design screen. Click on the pencil next to create new policy.
-
-.. image:: images/lab2-createpolicypencil.png
+4. This will open the Create Policy menu to start the policy creation process. In **Choose policy type** select **Per-Session Policy**. In **How would you like to create it?** select **Start from scratch**
+| Click on **Next** button at the top right-hand side to continue configuring the policy. 
+.. image:: images/lab2-cpnew1.png
     :width: 400 px
 
-5. In the **Create Policy** screen, let's start configuring the policy.
+5. In the **Create Per-Session Policy** screen, let's start configuring the policy.
 
 In the **General Properties** screen set the following parameter(s), for the rest of the settings you may leave it as default.
 
@@ -38,7 +38,7 @@ In the **General Properties** screen set the following parameter(s), for the res
 
 .. note:: As you continue the rest of the policy creation process, see the screen shot in each section for a visual example of the configuration.
 
-.. image:: images/lab2-azurepolicy.png
+.. image:: images/lab2-cpnew2.png
     :width: 400 px
 
 6. In **Session Properties**, keep the default settings, click **Continue**

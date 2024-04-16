@@ -1,4 +1,4 @@
-Lab 3.3 - Deploying an Application for VPN service.
+Lab 3.3: Deploying an Application for VPN service.
 ===================================================
 
 1. In Central Manager click on the **Workspace** icon at the top left corner, select **Applications**.

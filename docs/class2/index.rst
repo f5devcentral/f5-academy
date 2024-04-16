@@ -1,10 +1,10 @@
-BIG-IP Next Access lab.
-========================
+BIG-IP Next Access
+==================
 
 This lab consists of 3 use cases:
 
-1. Azure Authentication with Kerberos
-2. SAML Federation with Okta and HTTP Connector through API
+1. Kerberos Single Sign On with Azure Authentication
+2. SAML Federation with Okta and HTTP Connector Policy creation through API
 3. VPN with Machine Tunnel and BIG-IP Edge Client
 
 The first lab you will deploy an Access policy using Next Central Manager interface. The second lab you will use the Postman in the Windows jump host to deploy an HTTP Connector policy via API calls. Lastly, you will use Central Manager again to deploy an Access VPN policy.

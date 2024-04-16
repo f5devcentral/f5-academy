@@ -1,9 +1,9 @@
-Lab 1: Azure Authentication with Kerberos
-=========================================
+Lab 1: Kerberso SSO with Azure Authentication 
+=============================================
 
 Estimate time to complete: 25 minutes.
 
-In this lab we will explore how to setup authentication with Azure AD and single sign on with kerberos.
+In this lab we will explore how to setup an access policy for single sign on usin g authentication with Azure AD and single sign on with kerberos.
 
 **Learning Objectives:**
 
