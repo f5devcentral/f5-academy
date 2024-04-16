@@ -18,7 +18,7 @@ Lab 3.3: Deploying an Application for VPN service.
 
 4. In the Virtual Servers menu, click on **Start Creating** button to create a virtual server. 
 
-.. image:: images/lab3-app4.png 
+.. image:: images/lab3-app5.png 
    :width: 400 px
 
 5. In the **Virtual Servers** tab, enter the following settings
@@ -26,7 +26,7 @@ Lab 3.3: Deploying an Application for VPN service.
 **Virtual Server Name:** vpn_vs
 **Virtual Port:** 443 
 
-.. image:: images/lab3-app5.png
+.. image:: images/lab3-app4.png
    :width: 200 px
 
 6. Click on the **Edit** button under **Protocols & Profiles**
