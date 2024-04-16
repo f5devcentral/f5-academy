@@ -1,5 +1,5 @@
-Module 3: VPN with Machine Tunnel and Big-IP Edge Client
-========================================================
+Lab 3: VPN with Machine Tunnel and Big-IP Edge Client
+=====================================================
 
 Estimate time to complete: 30 minutes.
 

@@ -1,5 +1,5 @@
-3.4 Testing and Validating Access Policy
-========================================
+Lab 3.4 Testing and Validating Access Policy
+============================================
 
 In this lab we will validate the VPN policy we created works for both machine tunnel and the BIG-IP Edge client. 
 
