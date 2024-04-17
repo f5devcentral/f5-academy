@@ -1,5 +1,5 @@
-Lab 1.1 - Create DNS Resolver
-===========================================
+Lab 1.1: Create DNS Resolver
+=============================
 
 Configuring a L3 DNS Resolver
 -----------------------------
@@ -25,17 +25,17 @@ Configuring a L3 DNS Resolver
     :width: 400 px
 
 5. Click on **Start Adding Routes**
-
-6. We will add a new **L3 Forward Type** DNS resolver. In the New Route screen, please enter the following parameters.
+.. image:: images/lab2-addroute.png   
+6. We will bring up the **DNS Net Resolver** configuration menu where we will define a name and the nameserver for the resolution.
 
 - **Name:** global_f5_internal_net_resolver 
-- **VLANs:** external-vlan, internal-vlan
-- **Config:** L3 DNS Cache Net Resolver
-
-.. image:: images/lab2-l3fwd.png
+- **Route Type:** DNS Net Resolver
+- **DNS Net Resolver:** global_f5_internal_net_resolver
+ 
+.. image:: images/lab2-newroute.png
     :width: 400 px
 
-7. In the same screen, scroll down to **Forward Zone** in the L3 DNS Cache Net Resolver, and click **Create**. Enter the following parameters.
+7. In the same screen, scroll down to **Forward Zone**, and click **Create**. Enter the following parameters.
 
 - **Forward zone:** .  This is a period or single dot
 - **Nameserver:** 10.1.1.6:53
@@ -43,13 +43,12 @@ Configuring a L3 DNS Resolver
 .. image:: images/lab2-dnscache.png
     :width: 400 px
 
-8. Scroll down to **L3 Forward Type**, set the following parameters.
+8. Scroll down to see the additional settings, and set the following parameters.
 
-**L3 Forward Type:** netResolver
 **Name:** global_f5_internal_net_resolver
 **Select:** Use IPv4, Use TCP, Use UDP
 
-.. image:: images/lab2-l3types.png
+.. image:: images/lab2-new1.png
     :width: 400 px
 
 9. Click **Save**, and then click **Cancel & Exit** to exit out of the Instance Setting screen.

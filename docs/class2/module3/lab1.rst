@@ -1,4 +1,4 @@
-Lab 3.1 - Installing APM Client and Endpoint Security Package
+Lab 3.1: Installing APM Client and Endpoint Security Package
 ===============
 
 This is an observation lab to demonstrate the steps required to get APM Client and Endpoint Security Package installed.
