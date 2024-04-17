@@ -1,18 +1,12 @@
-F5 Academy Labs Getting Started Doc
+F5 Academy Lab Guide
 ===================================
 
-Welcome to the |classbold| for F5 Academy |year|
+Welcome to |classbold| |yearbold|
 
-.. attention::
-   The Academy team is using this repo to document our "read-the-docs" process.
+During this Academy you will have the opportunity to gain hands on
+experience within the following labs.
 
-|repoinfo|
-
-.. note::
-   Each Academy lab is typically broken down by "Class" --> "Module" --> "Lab".
-   Each section uses "toctree" to create the index and reference the content.
-   Using this template should give the contributer several getting-started
-   RST examples.
+Enjoy!
 
 .. toctree::
    :maxdepth: 3
