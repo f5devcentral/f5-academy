@@ -244,12 +244,12 @@ previously built Load Balancer object delivering the targeted API.
       :width: 800px
 
 #. Under **Validation**, select **API Inventory** from drop-down then click on
-   **Edit Configuration**
+   **View Configuration**
 
    .. image:: _static/lab1-task4-006.png
       :width: 800px
 
-#. Within **All endpoints validation**, update **Request Validation Endforcement Type** to
+#. Within **API Inventory validation**, update **Request Validation Endforcement Type** to
    **Block**. Click on **Apply** bottom right.
 
    .. image:: _static/lab1-task4-006a.png
