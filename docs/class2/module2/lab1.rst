@@ -1,8 +1,8 @@
 Lab 2: SAML Federation with Okta and HTTP Connector
 ====================================================
 
-Use API requests to create an Access policy with HTTP Connector, and attached policy to an application.
--------------------------------------------------------------------------------------------------------
+Use API requests to create an Access policy with Okta Federation and a HTTP Connector profile. Deploy this policy to an application.
+-------------------------------------------------------------------------------------------------------------------------------------
 
 1. On the jump host, open Postman from the desktop shortcut
 
@@ -35,7 +35,7 @@ Please validate you received a response code 200 Ok before proceeding to the nex
 
 Please validate you received a response code 200 Ok before proceeding to the next step.
 
-.. note:: You may get a response code of 202, especially when deploying a policy or application or importing. This means the request is successful, however it's still processing the data or body of the request. In this case, please wait for a few second before proceeding.
+.. note:: You may get a response code of 202 instead of 200. This means the request is successful, however it's still processing the data or body of the request. In this case, please wait for a few seconds before proceeding.
 
 .. image:: images/lab2-cert2.png
     :width:: 400 px
