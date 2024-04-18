@@ -147,8 +147,8 @@ version control features.
    the top of the window can also be used.
 
    .. note::
-      *If you receive an error clicking on **Add Swagger File** located at the center
-      of the window, click **Add Swagger File** at the top right of the same window.*
+      *If you receive an error when clicking on "Add Swagger File" located at the center
+      of the window, click "Add Swagger File" at the top right of the same window.*
 
    .. image:: _static/lab1-task2-002.png
       :width: 800px
