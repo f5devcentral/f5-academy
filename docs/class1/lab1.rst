@@ -280,7 +280,7 @@ previously built Load Balancer object delivering the targeted API.
 
    .. note::
       *Path/URL matching is case-sensitive. Make sure the exact case format is used as listed.
-      Copy and paste the following Path/URI to ensure case matching.*
+      Copy and paste the following Path/URI to ensure matching.*
 
    ``http://<namespace>.lab-sec.f5demos.com/api/CatLookup/GetByAge?age=five``
 

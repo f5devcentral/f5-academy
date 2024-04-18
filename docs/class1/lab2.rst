@@ -106,7 +106,8 @@ previously built Load Balancer object delivering the targeted API.
    access is denied.
 
    .. note::
-      *URI Path matching is case-sensitive. Make sure the exact case format is used as listed.*
+      *Path/URL matching is case-sensitive. Make sure the exact case format is used as listed.
+      Copy and paste the following Path/URI to ensure matching.*
 
    ``http://<namespace>.lab-sec.f5demos.com/api/CatLookup/GetAllCats``
 
@@ -203,7 +204,8 @@ previously built Load Balancer object delivering the targeted API.
    rate limiting, by freshing your tab several times.
 
    .. note::
-      *URI Path matching is case-sensitive. Make sure the exact case format is used as listed.*
+      *Path/URL matching is case-sensitive. Make sure the exact case format is used as listed.
+      Copy and paste the following Path/URI to ensure matching.*
 
    ``http://<namespace>.lab-sec.f5demos.com/api/DogLookup/GetAllDogs``
 
