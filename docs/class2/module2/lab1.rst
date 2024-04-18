@@ -31,7 +31,7 @@ Please validate you received a response code 200 Ok before proceeding to the nex
 .. image:: images/lab2-cert.png
     :width: 400 px
 
-6. In the **Upload Certificate to CM** request click **Send**. This will import the necessary certificate to use for Okta Federation piece of the lab.
+6. In the **Upload Certificate to CM** request click **Send**. This will import the certificate needed for Okta federation.
 
 Please validate you received a response code 200 Ok before proceeding to the next step.
 
