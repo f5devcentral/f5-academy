@@ -279,7 +279,7 @@ previously built Load Balancer object delivering the targeted API.
    and confirm the request has been blocked.
 
    .. note::
-      *Path/URL matching is case-sensitive. Make sure the exact case format is used as listed.
+      *Path/URI matching is case-sensitive. Make sure the exact case format is used as listed.
       Copy and paste the following Path/URI to ensure matching.*
 
    ``http://<namespace>.lab-sec.f5demos.com/api/CatLookup/GetByAge?age=five``
