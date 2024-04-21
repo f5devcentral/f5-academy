@@ -17,7 +17,7 @@ Objective:
 
 -  Explore building API Discovery and Protection within F5 Distributed Cloud
 
-   -  **API Discovery**: Provided via mopenachine-based learning processes, enables visualization of the API Framework,
+   -  **API Discovery**: Provided via machine-based learning processes, enables visualization of the API Framework,
       assesses use of end-points, discovers new end-points based on flows, identifies use of sensitive information,
       and enables swagger file export.
 
