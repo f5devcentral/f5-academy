@@ -25,7 +25,9 @@ Configuring a L3 DNS Resolver
     :width: 400 px
 
 5. Click on **Start Adding Routes**
+
 .. image:: images/lab2-addroute.png
+    :width: 400 px
 
 6. We will bring up the **DNS Net Resolver** configuration menu where we will define a name and the nameserver for the resolution.
 
