@@ -132,6 +132,7 @@ Click on **Yes, Deploy**
 
 .. image:: images/lab2-deploystatus.png
     :width: 400 px
+
 .. image:: images/lab2-deploycomp.png
     :width: 400 px
 
