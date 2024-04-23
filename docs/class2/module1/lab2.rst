@@ -26,6 +26,7 @@ Click on the **Access** from the Security menu.
 
 4. This will open the Create Policy menu to start the policy creation process. In **Choose policy type** select **Per-Session Policy**. In **How would you like to create it?** select **Start from scratch**
 | Click on **Next** button at the top right-hand side to continue configuring the policy. 
+
 .. image:: images/lab2-cpnew1.png
     :width: 400 px
 

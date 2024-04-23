@@ -31,6 +31,7 @@ Creating an application and assign an Access policy to the application.
 5. In the Application Services Properties, click **Start Creating**.
 
 .. image:: images/lab2-createapp2.png
+    :width: 400 px
 
 6. In the Virtual Servers configuration screen, we will define the Pool first, so click on **Pools** tab, click **Create**, and type in **Pool Name:** azure_pool.
 
@@ -95,6 +96,7 @@ Creating an application and assign an Access policy to the application.
 17. In the drop down box, select *big-ip-next-03.example.com*, then click on **Add to List** button.
 
 .. image:: images/lab2-deployto2.png
+    :width: 400 px
 
 18. In the **Virtual Address:** box type: **10.1.10.100** to associate with the virtual server vs_azure. 
 
@@ -132,6 +134,7 @@ Click on **Yes, Deploy**
 
 .. image:: images/lab2-deploystatus.png
     :width: 400 px
+
 .. image:: images/lab2-deploycomp.png
     :width: 400 px
 
