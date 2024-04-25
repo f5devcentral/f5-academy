@@ -77,13 +77,15 @@ Click on the drop-down arrow on the **Start Creating** button and select **Kerbe
 
 11. **Endpoint Security** screen, you can setup Endpoint Security such as ensuring the firewall is enabled on a client workstation before access is granted. In this lab, we will not use this feature. Click Continue. 
 
-12. **Resources screen**, you can set additional capabilities and features such as Network Access, and Webtops in this screen. In this lab we will not use these capabilities. Click Continue.
+12. **Resources** screen, you can set additional capabilities and features such as Network Access, and Webtops in this screen. In this lab we will not use these capabilities. Click **Continue**.
 
-13. **Policy Endings**, you can define addition policy ending logic as needed for your use case here. In this lab we will accept the default. Click Finish.
+13. **Connectivity** screen, you can define settings for BIG-IP Edge client and other connectivity setting related to client side access in this screen. In this lab we will not set of configuration. Click **Continue**.
 
-14. After clicking on **Finish** it should bring you back to the **Create Policy** screen. Now, we will use the Visual Policy Designer (VPD) to continue building the policy.
+14. **Policy Endings**, you can define addition policy ending logic as needed for your use case here. In this lab we will accept the default. Click Finish.
 
-15. Under Flows, drag and drop **Generic SAML Federation** flow to the VPD. You will need click on the little dots to the right of the flow type to grab the flow and drop into the VPD. 
+15. After clicking on **Finish** it should bring you back to the **Create Policy** screen. Now, we will use the Visual Policy Designer (VPD) to continue building the policy.
+
+16. Under Flows, drag and drop **Generic SAML Federation** flow to the VPD. You will need click on the little dots to the right of the flow type to grab the flow and drop into the VPD. 
 
 .. image:: images/lab2-samlflow.png
     :width: 400 px
@@ -115,9 +117,9 @@ Clicking on the **Collapse** button will expand the Flow type box.
 
 This will open the **SAML Federation Rule** properties screen. Please follow the screenshots below for each section.
 
-18. In the **SAML Rule Properties** configuration, replace the trailing number in the Name field to **azure_signed_policy**. Leave the **Provider Configuration** as **Basic**. Click **Continue**.
+18. In the **SAML Rule Properties** configuration, replace the trailing number in the Name field to **azure_signed_policy**. Under **Provider Configuration** tick the radio button for **Advanced** and then toggle the slider for **Authentication Context Classes**. Click **Continue**.
 
-.. image:: images/lab2-ruleprop1.png
+.. image:: images/lab2-ruleprop1b.png
     :width: 400 px
 
 19. In the **Providers** screen, you can set the different Service and Identity Providers in this screen. In this lab we will setup both a Service Provider and Identity Provider.
@@ -125,7 +127,7 @@ This will open the **SAML Federation Rule** properties screen. Please follow the
 .. image:: images/lab2-ruleprop2.png
     :width: 400 px
 
-20. Click on **Start Creating** under Service Provider. In the **Add Service Provider** screen input the following information, and then click **Save**.
+20. Click on **Start Creating** under Service Provider. In the **Add Service Provider** screen input the following information, in **General Properties**
 
 - **EntityID:** https://mbip-1.f5access.onmicrosoft.com 
 - **Host:** https://mbip-1.f5access.onmicrosoft.com 
@@ -134,7 +136,13 @@ This will open the **SAML Federation Rule** properties screen. Please follow the
 .. image:: images/lab2-serviceprovider.png
     :width: 400 px
 
-21. Click on **Start Creating** under Identity Provider. In the **Add Identity Provider** screen input the following information, and then click **Save**.
+
+21.  Click on **Authentication Context Class**, select **Exact** from the **Comparison Method** drop down menu. Click **Save**
+
+.. image:: images/lab2-authcontext.png
+    :width: 400 px
+
+22.  Click on **Start Creating** under Identity Provider. In the **Add Identity Provider** screen input the following information, and then click **Save**.
 
 - **Name:** remove the trailing number, and replace with **azure_signed_policy**
 - **EntityID:** https://sts.windows.net/8807dced-9637-4205-a520-423077750c60/  
@@ -144,11 +152,11 @@ This will open the **SAML Federation Rule** properties screen. Please follow the
 .. image:: images/lab2-identityprovider.png
     :width: 400 px
 
-22. After you click **Save** this should take you back to the Rule Configuration Screen, click **Continue**.
+1.  After you click **Save** this should take you back to the Rule Configuration Screen, click **Continue**.
 
-23. In the **Branches** screen, keep the default. Click **Finish**.
+2.  In the **Branches** screen, keep the default. Click **Finish**.
 
-24. Close the SAML Rule by clicking on the **Collapse** button.
+3.  Close the SAML Rule by clicking on the **Collapse** button.
 
 .. image:: images/lab2-samlclose.png
     :width: 400 px
