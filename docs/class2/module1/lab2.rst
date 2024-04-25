@@ -100,7 +100,7 @@ The result should look like the following screen shot.
 .. image:: images/lab2-flow1.png
     :width: 400 px
 
-16. Click inside the Flow type box. This show 3 buttons; **Delete**, **Edit**, and **Collapse** buttons. Click on the **Collapse** button to start adding Rules to the Flow.
+17. Click inside the Flow type box. This show 3 buttons; **Delete**, **Edit**, and **Collapse** buttons. Click on the **Collapse** button to start adding Rules to the Flow.
 
 .. image:: images/lab2-flow2.png
     :width: 400 px
@@ -110,24 +110,24 @@ Clicking on the **Collapse** button will expand the Flow type box.
 .. image:: images/lab2-flow3.png
     :width: 400 px
 
-17. Click inside the SAML-Federation Rule box, and select the **Edit** button
+18. Click inside the SAML-Federation Rule box, and select the **Edit** button
 
 .. image:: images/lab2-flow4.png
     :width: 400 px
 
 This will open the **SAML Federation Rule** properties screen. Please follow the screenshots below for each section.
 
-18. In the **SAML Rule Properties** configuration, replace the trailing number in the Name field to **azure_signed_policy**. Under **Provider Configuration** tick the radio button for **Advanced** and then toggle the slider for **Authentication Context Classes**. Click **Continue**.
+19. In the **SAML Rule Properties** configuration, replace the trailing number in the Name field to **azure_signed_policy**. Under **Provider Configuration** tick the radio button for **Advanced** and then toggle the slider for **Authentication Context Classes**. Click **Continue**.
 
 .. image:: images/lab2-ruleprop1b.png
     :width: 400 px
 
-19. In the **Providers** screen, you can set the different Service and Identity Providers in this screen. In this lab we will setup both a Service Provider and Identity Provider.
+20. In the **Providers** screen, you can set the different Service Providers (SP) and Identity Providers (iDP). In this lab we will setup both a Service Provider and a Identity Provider.
 
 .. image:: images/lab2-ruleprop2.png
     :width: 400 px
 
-20. Click on **Start Creating** under Service Provider. In the **Add Service Provider** screen input the following information, in **General Properties**
+21. Click on **Start Creating** under Service Provider. In the **Add Service Provider** screen input the following information, in **General Properties**
 
 - **EntityID:** https://mbip-1.f5access.onmicrosoft.com 
 - **Host:** https://mbip-1.f5access.onmicrosoft.com 
@@ -137,12 +137,12 @@ This will open the **SAML Federation Rule** properties screen. Please follow the
     :width: 400 px
 
 
-21.  Click on **Authentication Context Class**, select **Exact** from the **Comparison Method** drop down menu. Click **Save**
+22.  Click on **Authentication Context Class**, select **Exact** from the **Comparison Method** drop down menu. Click **Save**
 
 .. image:: images/lab2-authcontext.png
     :width: 400 px
 
-22.  Click on **Start Creating** under Identity Provider. In the **Add Identity Provider** screen input the following information, and then click **Save**.
+23.  Click on **Start Creating** under Identity Provider. In the **Add Identity Provider** screen input the following information, and then click **Save**.
 
 - **Name:** remove the trailing number, and replace with **azure_signed_policy**
 - **EntityID:** https://sts.windows.net/8807dced-9637-4205-a520-423077750c60/  
@@ -152,20 +152,20 @@ This will open the **SAML Federation Rule** properties screen. Please follow the
 .. image:: images/lab2-identityprovider.png
     :width: 400 px
 
-1.  After you click **Save** this should take you back to the Rule Configuration Screen, click **Continue**.
+24.  After you click **Save** this should take you back to the Rule Configuration Screen, click **Continue**.
 
-2.  In the **Branches** screen, keep the default. Click **Finish**.
+25.  In the **Branches** screen, keep the default. Click **Finish**.
 
-3.  Close the SAML Rule by clicking on the **Collapse** button.
+26.  Close the SAML Rule by clicking on the **Collapse** button.
 
 .. image:: images/lab2-samlclose.png
     :width: 400 px
 
-25. In the SAML Flow Allow branch, set the policy to **Allow**.
+27. In the SAML Flow Allow branch, set the policy to **Allow**.
 
 .. image:: images/lab2-samlending.png
     :width: 400 px
 
-26. **Save** the policy and close the VPD by clicking on **Cancel**.
+28. **Save** the policy and close the VPD by clicking on **Cancel**.
 
 You have completed creating an security policy!
