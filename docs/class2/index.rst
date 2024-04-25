@@ -28,16 +28,16 @@ You will predominantly work from the Windows jump host for all the labs.
 You will need to log into the Windows-Client-Testing to test the VPN Access Policy in Lab 3.
 
 **Credentials for the Next environment:**
-| **username:** admin
-| **password:** Welcome123!
+| **username:** ``admin``
+| **password:** ``Welcome123!``
 
 **Credentials for Windows Jump Host:**
-| **username:** f5access/user
-| **password:** user
+| **username:** ``f5access\user``
+| **password:** ``user``
 
 **Credentials for Windows Client Testing:**
-| **username:** user
-| **password:** user
+| **username:** ``user``
+| **password:** ``user``
 
 **Accessing the Lab environment**
 
@@ -54,12 +54,12 @@ You will need to log into the Windows-Client-Testing to test the VPN Access Poli
 
 3. Open the RDP session and use the following username/password
 
-| **Username:** f5access\user
-| **Password:** user
+| **Username:** ``f5access\user``
+| **Password:** ``user``
 
 4. In the Windows Jump Host, open Chrome browser, and click on the Central Manager shortcut to log into Next Central Manager.
 
-.. image:: images/intro4.png
+.. image:: images/intro4b.png
        :width: 400 px
 
 
@@ -71,8 +71,8 @@ You will need to log into the Windows-Client-Testing to test the VPN Access Poli
 
 6. Log into Central Manager using the following credential.
 
-| **Username:** admin
-| **Password:** Welcome123!
+| **Username:** ``admin``
+| **Password:** ``Welcome123!``
 
 .. image:: images/intro6.png
        :width: 400 px
