@@ -143,12 +143,11 @@ version control features.
 
 #. In the left-hand navigation, click on **Files** under the **Manage** section.
 
-#. Click **Add Swagger File** in the main window area as shown. Alternatively, the link near
-   the top of the window can also be used.
+#. Click **Add Swagger File** located at the top left corner of the window.
 
    .. note::
-      *If you receive an error when clicking on "Add Swagger File" located at the center
-      of the window, click "Add Swagger File" at the top of the same window.*
+      *A permissions error will be displayed after clicking on the
+      blue Add Swagger File button in the center of the window.*
 
    .. image:: _static/lab1-task2-002.png
       :width: 800px
