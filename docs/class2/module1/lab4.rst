@@ -22,6 +22,6 @@ You may get a screen, asking if you want to stay signed in. Click **No**
 You should see the F5 Demo App after a successful login.
 
 .. image:: images/lab2-complete.png
-    :width: 400 px
+    :width: 600 px
 
 This concludes Lab 2 - Azure authentication with Kerberos Single Sign On.

@@ -22,7 +22,7 @@ Click on the **Access** from the Security menu.
 3. Click the **Start Creating** button to create a new Access policy 
 
 .. image:: images/lab2-createapbtn.png
-    :width: 400 px
+    :width: 600 px
 
 4. This will open the Create Policy menu to start the policy creation process. In **Choose policy type** select **Per-Session Policy**. In **How would you like to create it?** select **Start from scratch**
 | Click on **Next** button at the top right-hand side to continue configuring the policy. 
@@ -40,24 +40,24 @@ In the **General Properties** screen set the following parameter(s), for the res
 .. note:: As you continue the rest of the policy creation process, see the screen shot in each section for a visual example of the configuration.
 
 .. image:: images/lab2-cpnew2.png
-    :width: 400 px
+    :width: 800 px
 
 6. In **Session Properties**, keep the default settings, click **Continue**
 
 .. image:: images/lab2-session.png
-    :width: 400 px
+    :width: 800 px
 
 7. In the **Logging** screen, you may want to adjust the logging to debug for troubleshooting proposes. For this lab we will keep all the default settings.
 
 .. image:: images/lab2-logging.png
-    :width: 400 px
+    :width: 800 px
 
 8. In the **Single Sign-On** screen, is where you can configure Single Sign-On to your applications. In this lab we will setup Single Sign-On for Kerberos.
 
 Click on the drop-down arrow on the **Start Creating** button and select **Kerberos**.
 
 .. image:: images/lab2-sso.png
-    :width: 400 px
+    :width: 800 px
 
 9. This will open the SSO Method Configuration screen. In this screen set the parameters as follow.
 
@@ -93,39 +93,39 @@ Click on the drop-down arrow on the **Start Creating** button and select **Kerbe
 :bulb: **Tip:** When dropping the flow type onto the VPD, you want to make sure the flow type box is over the plus sign and the plus sign turns blue.
 
 .. image:: images/lab2-flowdraganddrop.png
-    :width: 400 px
+    :width: 600 px
 
 The result should look like the following screen shot.
 
 .. image:: images/lab2-flow1.png
-    :width: 400 px
+    :width: 800 px
 
 17. Click inside the Flow type box. This show 3 buttons; **Delete**, **Edit**, and **Collapse** buttons. Click on the **Collapse** button to start adding Rules to the Flow.
 
 .. image:: images/lab2-flow2.png
-    :width: 400 px
+    :width: 800 px
 
 Clicking on the **Collapse** button will expand the Flow type box.
 
 .. image:: images/lab2-flow3.png
-    :width: 400 px
+    :width: 800 px
 
 18. Click inside the SAML-Federation Rule box, and select the **Edit** button
 
 .. image:: images/lab2-flow4.png
-    :width: 400 px
+    :width: 800 px
 
 This will open the **SAML Federation Rule** properties screen. Please follow the screenshots below for each section.
 
 19. In the **SAML Rule Properties** configuration, replace the trailing number in the Name field to **azure_signed_policy**. Under **Provider Configuration** tick the radio button for **Advanced** and then toggle the slider for **Authentication Context Classes**. Click **Continue**.
 
 .. image:: images/lab2-ruleprop1b.png
-    :width: 400 px
+    :width: 800 px
 
 20. In the **Providers** screen, you can set the different Service Providers (SP) and Identity Providers (iDP). In this lab we will setup both a Service Provider and a Identity Provider.
 
 .. image:: images/lab2-ruleprop2.png
-    :width: 400 px
+    :width: 800 px
 
 21. Click on **Start Creating** under Service Provider. In the **Add Service Provider** screen input the following information, in **General Properties**
 
@@ -134,13 +134,13 @@ This will open the **SAML Federation Rule** properties screen. Please follow the
 - **Security Properties:** check the box for **Want Signed Assertion**
 
 .. image:: images/lab2-serviceprovider.png
-    :width: 400 px
+    :width: 800 px
 
 
 22.  Click on **Authentication Context Class**, select **Exact** from the **Comparison Method** drop down menu. Click **Save**
 
 .. image:: images/lab2-authcontext.png
-    :width: 400 px
+    :width: 800 px
 
 23.  Click on **Start Creating** under Identity Provider. In the **Add Identity Provider** screen input the following information, and then click **Save**.
 
@@ -150,7 +150,7 @@ This will open the **SAML Federation Rule** properties screen. Please follow the
 - **Identity Provider’s Assertion Verification Certificate:** click the drop down arrow, and select the *azure_signed_cert*
 
 .. image:: images/lab2-identityprovider.png
-    :width: 400 px
+    :width: 800 px
 
 24.  After you click **Save** this should take you back to the Rule Configuration Screen, click **Continue**.
 
@@ -159,12 +159,12 @@ This will open the **SAML Federation Rule** properties screen. Please follow the
 26.  Close the SAML Rule by clicking on the **Collapse** button.
 
 .. image:: images/lab2-samlclose.png
-    :width: 400 px
+    :width: 800 px
 
 27. In the SAML Flow Allow branch, set the policy to **Allow**.
 
 .. image:: images/lab2-samlending.png
-    :width: 400 px
+    :width: 800 px
 
 28. **Save** the policy and close the VPD by clicking on **Cancel**.
 

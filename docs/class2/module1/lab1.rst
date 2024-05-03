@@ -17,12 +17,12 @@ Configuring a L3 DNS Resolver
 3. In the My Instances dashboard, click on *big-ip-next-03.example.com* instance.
 
 .. image:: images/lab2-myinstances.png
-    :width: 400 px
+    :width: 600 px
 
 4. This will open the Instance Settings screen. On the left side, click on **Networking & Proxy**. Click on **Routes** tab from the menu across the top. 
 
 .. image:: images/lab2-routes.png
-    :width: 400 px
+    :width: 600 px
 
 5. Click on **Start Adding Routes**
 
@@ -44,7 +44,7 @@ Configuring a L3 DNS Resolver
 - **Nameserver:** 10.1.1.6:53
 
 .. image:: images/lab2-dnscache.png
-    :width: 400 px
+    :width: 600 px
 
 8. Scroll down to see the additional settings, and set the following parameters.
 
@@ -52,7 +52,7 @@ Configuring a L3 DNS Resolver
 **Select:** Use IPv4, Use TCP, Use UDP
 
 .. image:: images/lab2-new1.png
-    :width: 400 px
+    :width: 600 px
 
 9. Click **Save**, and then click **Cancel & Exit** to exit out of the Instance Setting screen.
 
