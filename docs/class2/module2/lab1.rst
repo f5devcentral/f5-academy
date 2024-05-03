@@ -24,7 +24,7 @@ Use API requests to create an Access policy with Okta Federation and a HTTP Conn
 Please validate you received a response code 200 Ok before proceeding to the next step.
 
 .. image:: images/lab-postman4.png
-    :width: 400 px
+    :width: 600 px
    
 5. Click on **Upload Certificate to CM** request. 
 
@@ -48,7 +48,7 @@ Please validate you received a response code 200 Ok before proceeding to the nex
 8. In the **Create Policy + HTTP Connector** request click **Send**. Again, verify you received a response 200 OK code.
 
 .. image:: images/lab-postman6.png
-    :width: 400 px
+    :width: 800 px
 
 9. Please do follow the same step as above for the **Create Application through CM** and **Deploy Application to Instance** requests. 
 
@@ -67,12 +67,12 @@ As you click **Send** on each request, ensure you are getting an response code 2
 Click on the **access_okta_Connector_polic**  link to open the VPD.
 
 .. image:: images/lab-postman8.png
-    :width: 400 px
+    :width: 800 px
 
 12. Observe a **Generic-SAML-Federation** flow was added to the **Visual Policy Designer**. 
 
 .. image:: images/lab-postman9.png
-    :width: 400 px
+    :width: 600 px
 
 13. Click on the **Expand** button to expand the flow. 
 
@@ -82,26 +82,26 @@ Click on the **access_okta_Connector_polic**  link to open the VPD.
 14. Inside the **Flow** you will see a **SAML Federation** rule, **HTTP Connector Rule**, and **Message Box**. 
 
 .. image:: images/lab-postman11.png
-    :width: 400 px
+    :width: 800 px
 
 15. Click the **Edit** button for **SAML Federation** flow to observe the **Service Providers** and **Identity Providers** configurations.
 
 .. image:: images/lab-postman12.png
-    :width: 400 px
+    :width: 600 px
 
 16. Once you’re done, click **Cancel**.
 
 17. Click **Edit** on **HTTP-Connector** rule. This configuration is the settings Access will use to connect to the external server. In this lab, Access will send API authentication requests to a risk assessment server. When API requests are considered risky by the server (i.e. too many requests) the server will send back a variable to Access to deny access to the resource. Once you’re done reviewing, click **Cancel**.
 
 .. image:: images/lab-postman13.png
-    :width: 400 px
+    :width: 800 px
 
 18. Like in BIG-IP Classic Access Policy Manager (APM) you can add a custom Message Box. To review the configuration on how to set this up click on the Edit button for the Message Box rule. Once you’re done reviewing, please remember to click on Cancel.
 
 19. Click on **Exit** at the top right-hand corner to exit out of the policy.
 
 .. image:: images/lab-postman14.png
-    :width: 400 px
+    :width: 800 px
 
 20. Let’s verify the Application. Click on the **Workspace** icon and go to **Application** workspace.
 
@@ -111,17 +111,17 @@ Click on the **access_okta_Connector_polic**  link to open the VPD.
 21. In **My Application Services**, observe there’s a new application **access_okta_connector_app** was created.
 
 .. image:: images/lab-postman16.png
-    :width: 400 px
+    :width: 600 px
 
 22. Click on the application, and in the next screen click on **Edit** at the top right hand corner.
 
 .. image:: images/lab-postman17.png
-    :width: 400 px
+    :width: 800 px
 
 23. Review the virtual server configurations for this application. You’ll notice the virtual server name, pool name, the listening port, an access policy is attached to the virtual server. To see further details like what policy is attached to the virtual server click on the **Edit** button. 
 
 .. image:: images/lab-postman18.png
-    :width: 400 px
+    :width: 800 px
 
 24. Once you are done reviewing, please click on **Cancel** and **Exit**. And then **Exit** again to close the **Application** menu.
 
@@ -130,18 +130,18 @@ Click on the **access_okta_Connector_polic**  link to open the VPD.
 You may get a certificate warning. This is expected because we are using a self-signed certificate. Click on **Advanced** and click on the link to **Proceed**.
 
 .. image:: images/lab-postman19.png
-    :width: 400 px
+    :width: 600 px
 
 
 26. You will be prompted for login. Enter the following credential: **username: user1 password user1**
 
 .. image:: images/lab-postman20.png
-    :width: 400 px
+    :width: 600 px
 
 27. A successful login will result in the Demo App page displaying for you. 
 
 .. image:: images/lab-postman21.png
-    :width: 400 px
+    :width: 600 px
 
 28. To simulate a denial based on an increased risk behavior, click on the refresh button a few times, and open a new incognito browser, and go back to the URL https://signed.example.com and log in with the same username and password as previously which is **username: user1 password: user1**
 
