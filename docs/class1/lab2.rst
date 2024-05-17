@@ -183,7 +183,7 @@ previously built Load Balancer object delivering the targeted API.
    * **API Endpoint:**  ``/api/DogLookup/GetAllDogs``
    * **Method List:** ``ANY``
    * **Threshold:** ``3``
-   * **Duration:** ``Minutes``
+   * **Duration:** ``Minute``
 
 
    .. note::
@@ -194,7 +194,7 @@ previously built Load Balancer object delivering the targeted API.
 
 #. Review the API Endpoint rate limiting rule and click, the **Apply** button.
 
-   .. image:: _static/lab2-task2-007.png
+   .. image:: _static/lab2-task2-007-alt.png
       :width: 800px
 
 #. Note the updated configuration for API Rate limiting, Click **Other Settings** on the
