@@ -185,6 +185,7 @@ previously built Load Balancer object delivering the targeted API.
    * **Threshold:** ``3``
    * **Duration:** ``Minutes``
 
+
    .. note::
       *This will rate limit a client after making 3 requests within 1 minute.*
 
