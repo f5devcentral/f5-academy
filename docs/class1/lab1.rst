@@ -122,8 +122,8 @@ steps will define an application, register its DNS and assign a target as an ori
    .. image:: _static/lab1-task1-012.png
       :width: 800px
 
-Task 2: Swagger File Import & Version Control
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Task 2: OpenAPI File Import
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 In this task's series of steps you will import swagger files into the F5 Distributed Cloud tenant and explore
 version control features.
@@ -141,21 +141,17 @@ version control features.
    .. image:: _static/shared-001.png
       :width: 800px
 
-#. In the left-hand navigation, click on **Files** under the **Manage** section.
+#. In the left-hand navigation, click on **Files** then **OpenAPI Files** under the **Manage** section.
 
-#. Click **Add Swagger File** located at the top left corner of the window.
-
-   .. note::
-      *A permissions error will be displayed after clicking on the
-      blue Add Swagger File button in the center of the window.*
+#. Click **Add OpenAPI File** located in the center of the window.
 
    .. image:: _static/lab1-task2-002.png
       :width: 800px
 
-#. In the resulting **New Swagger File** window, input **app-api** for the **Name** under
+#. In the resulting **OpenAPI File** window, input **app-api** for the **Name** under
    the **Metadata** section.
 
-#. In the **Upload Swagger File** section, click the **Upload File** button. Select the file
+#. In the **OpenAPI Upload** section, click the **Upload File** button. Select the file
    downloaded in Step 1 above and click **Open**.
 
    .. image:: _static/lab1-task2-003.png
@@ -166,7 +162,7 @@ version control features.
    .. image:: _static/lab1-task2-004.png
       :width: 800px
 
-#. In the resulting **Swagger Files** window, you will see the upload file with additional
+#. In the resulting **OpenAPI File** window, you will see the upload file with additional
    metadata.
 
    .. note::
@@ -176,7 +172,7 @@ version control features.
    .. image:: _static/lab1-task2-005.png
       :width: 800px
 
-Task 3: Swagger Definition
+Task 3: API Definition
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 In this task's series of steps you will establish the Swagger Definition which serves as an object
@@ -197,10 +193,9 @@ pointer to imported swagger files you just uploaded.
 #. In the resulting **New API Definition** window, input **app-api-spec**
    for the **Name** under the **Metadata** section.
 
-#. In the **Swagger Specs** section, click **Add Item** box in the
-   **Swagger Specs** column.
+#. In the **OpenAPI Specification Files** section, click **Add Item**.
 
-#. Select the version 1 of the previously uploaded swagger spec file. It will be in the
+#. Select the version 1 of the previously uploaded OpenAPI spec file. It will be in the
    format **<namespace>/app-api/v1-<current-date>**.
 
 #. Once selected, click **Save and Exit** in the bottom-right corner.
