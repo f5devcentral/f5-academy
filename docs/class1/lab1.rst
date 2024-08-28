@@ -99,16 +99,16 @@ steps will define an application, register its DNS and assign a target as an ori
 
 #. After returning to the prior window, make sure **Port:** within the **Origin Servers**
    section, under **Origin Server Port** is configured for **80**.
-
-#. Leave all other values as shown while scrolling to the bottom and click, **Continue**.
-
-#. After returning to the next window and confirming the content, click **Apply**.
-
+ 
    .. image:: _static/lab1-task1-008.png
       :width: 800px
 
+#. Leave all other values as shown while scrolling to the bottom and click, **Continue**.
+
    .. image:: _static/lab1-task1-009.png
       :width: 800px
+
+#. After returning to the next window and confirming the content, click **Apply**.
 
    .. image:: _static/lab1-task1-010.png
       :width: 800px
@@ -316,5 +316,5 @@ previously built Load Balancer object delivering the targeted API.
 **End of Lab 1:**  This concludes Lab 1, feel free to review and test the configuration.
 A brief presentation and demo will be shared prior to the beginning of Lab 2.
 
-.. image:: _static/labend.png
+.. image:: _static/endlab.png
    :width: 800px

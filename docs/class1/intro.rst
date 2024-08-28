@@ -24,8 +24,8 @@ application. The key elements lab attendees will interact with are as follows:
 * **F5 Distributed Cloud Global Network / Application Delivery Network (ADN)**
 * **Publicly hosted application (Public Cloud)**
 
-|intro001|
-
+.. image:: _static/intro-001.png
+   :width: 800px
 
 Task 2: F5 Distributed Cloud Console Login
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -61,15 +61,17 @@ step below to access the F5 Distributed Cloud Lab Tenant.
 
 #. Several **Guidance ToolTips** will appear, you can safely close these as they appear.
 
-   |intro002|
+   .. image:: _static/intro-002.png
+      :width: 800px
 
-   |intro003|
+   .. image:: _static/intro-003.png
+      :width: 800px
 
-   |intro004|
+   .. image:: _static/intro-004.png
+      :width: 800px
 
-   |intro005|
-
-
+   .. image:: _static/intro-005.png
+      :width: 800px
 
 #. You can adjust your work domains and skill level (not required) by clicking on the
    **Account** icon in the top right of the screen and then clicking on **Account Settings**.
@@ -81,9 +83,11 @@ step below to access the F5 Distributed Cloud Lab Tenant.
       *For the purposes of this lab, permissions have been restricted to lab operations.  As
       some menus will be locked and not visible.*
 
-   |intro006|
+   .. image:: _static/intro-006.png
+      :width: 800px
 
-   |intro007|
+   .. image:: _static/intro-007.png
+      :width: 800px
 
 #. Namespaces, which provide an environment for isolating configured applications or
    enforcing role-based access controls, are leveraged within the F5 Distributed Cloud
@@ -104,32 +108,13 @@ step below to access the F5 Distributed Cloud Lab Tenant.
       *Administratively, there are other ways to find namespaces. Due to access and permission
       restrictions for this particular lab, those menus are not available.*
 
-   |intro008|
+   .. image:: _static/intro-008.png
+      :width: 800px
 
-   |intro009|
+   .. image:: _static/intro-009.png
+      :width: 800px
 
 **Beginning of Lab:**  You are now ready to begin the lab, Enjoy! Ask questions as needed.
 
-|labbgn|
-
-
-.. |intro001| image:: _static/intro-001.png
-   :width: 800px
-.. |intro002| image:: _static/intro-002.png
-   :width: 800px
-.. |intro003| image:: _static/intro-003.png
-   :width: 800px
-.. |intro004| image:: _static/intro-004.png
-   :width: 800px
-.. |intro005| image:: _static/intro-005.png
-   :width: 800px
-.. |intro006| image:: _static/intro-006.png
-   :width: 800px
-.. |intro007| image:: _static/intro-007.png
-   :width: 800px
-.. |intro008| image:: _static/intro-008.png
-   :width: 800px
-.. |intro009| image:: _static/intro-009.png
-   :width: 800px
-.. |labbgn| image:: _static/labbgn.png
+.. image:: _static/startlab.png
    :width: 800px
