@@ -245,5 +245,5 @@ configuration can also be fully deployed and managed via the F5 Distributed Clou
 
 **End of Lab 2:**  This concludes Lab 2. A Q&A session will begin shortly after conclusion of the overall lab.
 
-.. image:: _static/labend.png
+.. image:: _static/endlab.png
    :width: 800px
